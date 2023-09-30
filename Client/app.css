@@ -33,26 +33,25 @@
 }
 
 .switch-field input:checked + label {
-	background-color: #a5dc86;
+	background-color: #8CABFF;
 	box-shadow: none;
 }
 
-.switch-field label:first-of-type {
-	border-radius: 4px 0 0 4px;
-}
-
-.switch-field label:last-of-type {
-	border-radius: 0 4px 4px 0;
+h1{
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #AED2FF;
 }
 
 .form {
 	max-width: 270px;
-	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: normal;
 	line-height: 1.625;
 	margin: 8px auto;
 	padding-left: 16px;
 	z-index: 2;
+	color: #E4F1FF;
 }
 
 h2 {
@@ -60,7 +59,7 @@ h2 {
 	margin-bottom: 8px;
 }
 .area{
-  font-family: "Roboto", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 76%;
@@ -70,11 +69,11 @@ h2 {
   box-sizing: border-box;
   font-size: 15px;
   height: 35px;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .location{
-  font-family: "Roboto", sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 76%;
@@ -84,11 +83,11 @@ h2 {
   box-sizing: border-box;
   font-size: 15px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .submit{
-  background: #a5dc86;
+  background: #9400FF;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
@@ -96,11 +95,11 @@ h2 {
   font-size: 15px;
 	height: 35px;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 .result{
-		background: #dcd686;
+		background: #4477CE;
 		width: 76%;
 		border: 0;
 		margin: 25px 0 10px;
@@ -110,8 +109,8 @@ h2 {
 		text-align: center;
 }
 
-.img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+/* .img {
+  background: url('./assets/pexels-alexander-kovalev-2847648.jpg');
 	background-repeat: no-repeat;
   background-size: auto;
   background-size:100% 100%;
@@ -126,8 +125,9 @@ h2 {
   top: 0;
   left: 0;
   z-index: -1;
-}
+} */
 
 body, html {
   height: 100%;
+  background-color: #27005D;
 }
