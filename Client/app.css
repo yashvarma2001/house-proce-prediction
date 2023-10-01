@@ -87,7 +87,7 @@ h2 {
 }
 
 .submit{
-  background: #9400FF;
+  background: #8CABFF;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
@@ -95,7 +95,9 @@ h2 {
   font-size: 15px;
 	height: 35px;
 	text-align: center;
-	border-radius: 0px;
+	border-radius: 1000px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #27005D;
 }
 
 .result{
